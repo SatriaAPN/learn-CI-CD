@@ -12,5 +12,5 @@ jobs:
       - uses: actions/setup-node@v1 #setup node environment
         with:
           node-version: 16
-      - run: yarn ci #install dependencies
+      - run: yarn install --immutable --immutable-cache --check-cache #install dependencies
       - run: yarn start #run the app
