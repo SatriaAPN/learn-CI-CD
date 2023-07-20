@@ -12,5 +12,5 @@ jobs:
       - uses: actions/setup-node@v1 #setup node environment
         with:
           node-version: 16
-      - run: npm ci #install dependencies
-      - run: npm start #run the app
+      - run: yarn ci #install dependencies
+      - run: yarn start #run the app
