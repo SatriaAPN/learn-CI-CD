@@ -13,5 +13,5 @@ jobs:
         with:
           node-version: 16
       - run: yarn install --immutable --immutable-cache --check-cache #install dependencies
-      - run: yarn start #run the app
+      #- run: yarn start #run the app
       - run: ^C #kill the app
